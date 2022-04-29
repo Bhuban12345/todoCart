@@ -1,0 +1,42 @@
+body {
+  background-color: burlywood;
+}
+.btn {
+  display: flex;
+  justify-content: flex-end;
+}
+.item {
+  background-color: cornflowerblue;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.item .input1 {
+  width: 180px;
+  height: 170px;
+  font-size: 20px;
+  text-align: center;
+}
+.item .input2 {
+  width: 30px;
+  height: 15px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+.cart {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.doneCart {
+  width: 180px;
+  height: 170px;
+  background-color: green;
+  text-align: center;
+  word-wrap: break-word;
+  font-size: 30px;
+}
